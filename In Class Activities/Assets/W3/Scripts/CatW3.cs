@@ -24,7 +24,7 @@ public class CatW3 : MonoBehaviour
     // ------------------------------------------------------------------------
     private void Start ()
     {
-        _health = _maxHealth;
+        _health = (int)_maxHealth;
     }
 
     // ------------------------------------------------------------------------
@@ -107,7 +107,7 @@ public class CatW3 : MonoBehaviour
             //
             // Try toggling the Destroy Cat When Dead setting on the Inspector,
             //      and see how the cat is removed ONLY when it's checked!
-            if (_health <= 0 && _destroyCatWhenDead = true)
+            if (_health <= 0 && _destroyCatWhenDead)
             {
                 DestroyCat();
             }
@@ -132,7 +132,7 @@ public class CatW3 : MonoBehaviour
     private void DecreaseHealth()
     {
         _health -= 1;
-        _healthText.text = _health;
+        _healthText.text = "health = " + _health.ToString();
         // write Step 3 below this comment!
 
 

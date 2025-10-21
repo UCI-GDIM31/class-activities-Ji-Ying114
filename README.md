@@ -15,6 +15,9 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 1. The return type of the method should be a string because we want an output of text; the parameter should be an int for friendship level which is a continuous whole number variable and a boolean for the knowing of secret which is a yes-or-no status. 
 2. A class is a blueprint of a component. The methods are the actual disigned functions of the component and the member variables are the specific states of each component, which can vary among each other.
 3. Because it gets faster everytime it bounces.
+
+### w4
+1. (Table#13) _isGrounded is a member variable and its type is bool. _rigidBody is a component. Line 30 is calling a method "AddForce", and its parameters are two floats. I added rigidbody to the cat and the ball, and the ball I checked was trigger on. I had to change the variable types because my unity could not change ints to floats or strings implicitly. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
