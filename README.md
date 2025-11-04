@@ -22,6 +22,10 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 ### w5
 1. The question that why we should use transform instead of vector 3 for the object to move towards another object. The answer is that there has already been NavMeshAgent which can get the transform of the object directly and we will not have to maintain the rotation and the position ourselves. 
 2. Our plan is to input a target object in the SterializeField to provide a target position, and use the NavMeshAgent component to make the deer move towards the direction. In order to make the deer head to the direction all the time, we need to update the position of the target object every frame using Update(). 
+
+### w6
+1. other tools: https://docs.google.com/document/u/0/d/1wrY73yJ_km0ig2SehlUSuSx3rOOu84QnORwQ0mV305o/mobilebasic
+2. I added the float speed variable that controls the speed of the chasing of the bats. I built it in the batManager. Aside of that, I did not add any other member variables. The class only needs a chase() method to be called in the batManager. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
