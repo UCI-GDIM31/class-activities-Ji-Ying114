@@ -26,6 +26,10 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 ### w6
 1. other tools: https://docs.google.com/document/u/0/d/1wrY73yJ_km0ig2SehlUSuSx3rOOu84QnORwQ0mV305o/mobilebasic
 2. I added the float speed variable that controls the speed of the chasing of the bats. I built it in the batManager. Aside of that, I did not add any other member variables. The class only needs a chase() method to be called in the batManager. 
+
+### w7
+The code in Step 2 changes the player character's position on the world axis but not on the local axis. The correct code is Translate().
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
